@@ -28,8 +28,8 @@ export default function Form() {
     const passMessage = "info submitted"
     const failMessage = "passwords do not match"
     const match = formData.password1 === formData.password2
-    match ? console.log(passMessage) : console.log(failMessage)
-    match && formData.marketing && console.log("Thanks for signing up for the newsletter")
+    match ? alert(passMessage) : alert(failMessage)
+    match && formData.marketing && alert("Thanks for signing up for the newsletter")
   }
 
   return (
