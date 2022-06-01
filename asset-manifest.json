@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_practice_form/static/css/main.964fdded.css",
+    "main.js": "/react_practice_form/static/js/main.88a8403c.js",
+    "index.html": "/react_practice_form/index.html",
+    "main.964fdded.css.map": "/react_practice_form/static/css/main.964fdded.css.map",
+    "main.88a8403c.js.map": "/react_practice_form/static/js/main.88a8403c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.88a8403c.js"
+  ]
+}
