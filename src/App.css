@@ -9,13 +9,47 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.header {
+  background-color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header--name {
+  display: flex;
+  align-items: center;
+}
+
+.header--name > h4 {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header--name {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  .header--name > h4 {
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header--name > h4 {
+    font-size: 0.8rem;
+  }
+}
+
 .form-container {
   height: 100vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: 10vh;
 }
 
 .form {
